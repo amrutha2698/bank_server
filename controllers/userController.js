@@ -15,7 +15,7 @@ exports.register = async (req,res)=>{
   const {username,acno,password }=req.body
   //destructing method
   if(!username || !acno ||!password){
-  res.status(403).json("All inputs are required!!!")
+  res.status(403).json("All inputs are required!!!!!!")
 }
 //check user is an exist user
 try{
